@@ -1,7 +1,23 @@
+Priv_Shanxitraffic-Benchmark
+Object Detection Performance on Priv_Shanxitraffic About Priv_Shanxitraffic:
+
+v0.2<br>
+13,798 images totally: train set 11,639 images, val set 2,159 images
+7(9) categories including background, car, truck, bus, motorcycle, bicycle, person(pedestrian, rider, driver)
+
+v0.2.1<br> 
+remove some low quality images
+12,196 images totally: train set 10,410 images, val set 1,786 images
+7(9) categories including background, car, truck, bus, motorcycle, bicycle, person(pedestrian, rider, driver)
+
+v0.2.1<br> 
+
 | 序号 |size| 单个epcho的时间 | 预计训练时间 | 测试速度 | 100epoch val | 100epoch train | 220epoch val | 220epoch train |
 |-----|----|----------------|-----------|---------|--------------|----------------|--------------|----------------|
 |1|300|9'35|36h|22.77|0.5965|0.8616|0.6241|0.8748|
 |2|500|9'4|36h|21.86|0.5973|0.8650|0.5945|0.8769|
+
+**mAP best in RFCN is 0.622**
 
 300 speed:22.77fps 
 pure test speed(without load net structure)：83fps
